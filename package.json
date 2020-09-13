@@ -1,0 +1,27 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "simple node js server that can communicate with client over websocket connection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurav-samantray/node-websocket-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "websocket"
+  ],
+  "author": "Saurav Samantray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurav-samantray/node-websocket-server/issues"
+  },
+  "homepage": "https://github.com/saurav-samantray/node-websocket-server#readme",
+  "dependencies": {
+    "websocket": "^1.0.32"
+  }
+}
